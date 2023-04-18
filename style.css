@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(48, 46, 46);
+}
+.container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+
+}
+.texts{
+    text-align: center;
+    color: rgb(255, 228, 228);
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 55px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+#Prem{
+    color: rgb(102, 102, 243);
+}
+#Telegram{
+    color: rgb(69, 146, 234);
+}
+#Logo{
+    width: 370px;
+    height: 200px;
+}
+#send-button{
+    margin-top: 10px;
+    background-color: #de6b6b;
+    height: 45px;
+    border-radius: 7px;
+    border: 2px;
+    color: #fdf9ff;
+    transition-duration: 0.1s;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    width: 140%
+}
+
+#send-button:hover{
+    background-color: #bc5757;
+}
+#send-button:active{
+    background-color: #a04848;
+    color: #a19fa1;
+}
+.message{
+    margin-top: 10px;
+    background-color: rgb(44, 42, 42);
+    display: block;
+  width: 130%;
+  height: calc(1.80rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family:'Roboto', sans-serif;
+  line-height: 1.5;
+  color: #cac7c7;
+  outline: none;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
